@@ -6,5 +6,9 @@ public class Chambre extends Piece{
 		super(etage, superficie);
 		
 	}
+	
+	public String getType() {
+		return "Chambre";
+	}
 
 }

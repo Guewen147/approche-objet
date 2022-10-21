@@ -46,6 +46,12 @@ public class Ville implements Comparable<Ville> {
 	public void setNbHabitants(int nbHabitants) {
 		this.nbHabitants = nbHabitants;
 	}
+
+	@Override
+	public int compareTo(Ville o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 }

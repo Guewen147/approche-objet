@@ -7,4 +7,8 @@ public class Salon extends Piece{
 		
 	}
 
+	@Override
+	public String getType() {
+		return "Salon";
+	}
 }
